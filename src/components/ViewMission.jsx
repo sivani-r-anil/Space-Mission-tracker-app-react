@@ -26,6 +26,9 @@ const ViewMission = () => {
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
+                        <h2 style={{ fontFamily: "math", color: "#ffdf40", textAlign: "center" }}>
+                            🚀 VIEW ALL MISSIONS</h2>
+
                         <div className="row g-3">
                             {data.map(
                                 (value, index) => {

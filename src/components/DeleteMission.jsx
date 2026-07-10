@@ -8,6 +8,10 @@ const DeleteMission = () => {
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <h2 style={{ fontFamily: "math", color: "#ffdf40", textAlign: "center" }}>
+                            🚀 DELETE MISSION</h2>
+
                         <div className="row g-3">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
