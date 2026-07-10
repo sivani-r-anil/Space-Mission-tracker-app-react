@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import AddMission from './components/AddMission'
 import DeleteMission from './components/DeleteMission'
+import SearchMission from './components/SearchMission'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <AddMission/>
       <DeleteMission/>
+      <SearchMission/>
     </>
   )
 }
