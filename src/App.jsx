@@ -6,6 +6,7 @@ import './App.css'
 import AddMission from './components/AddMission'
 import DeleteMission from './components/DeleteMission'
 import SearchMission from './components/SearchMission'
+import ViewMission from './components/ViewMission'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <AddMission/>
       <DeleteMission/>
       <SearchMission/>
+      <ViewMission/>
     </>
   )
 }
