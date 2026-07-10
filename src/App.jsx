@@ -7,16 +7,23 @@ import AddMission from './components/AddMission'
 import DeleteMission from './components/DeleteMission'
 import SearchMission from './components/SearchMission'
 import ViewMission from './components/ViewMission'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <AddMission/>
-      <DeleteMission/>
-      <SearchMission/>
-      <ViewMission/>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<AddMission />} />
+          <Route path='/search' element={<SearchMission />} />
+          <Route path='/delete' element={<DeleteMission />} />
+          <Route path='/view' element={<ViewMission />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }
